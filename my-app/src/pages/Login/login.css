@@ -1,0 +1,143 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100%;
+
+    background-color: #121214;
+    color: #A1D2FF
+
+}
+
+.login form{
+    width: 500px;
+    height: 400px;
+}
+
+.login-logo img{
+    width: 300px;
+    height: 300px;
+
+    
+}
+
+.login-right{
+    background-color: #29292e;
+    border-radius: 5px;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.login-right h1{
+    /* font-family: 'Roboto'; */
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.login-right h4{
+    font-weight: 300px;
+    margin-top: 40px;
+    font-size: 15px;
+    color: #e1e1e6;
+}
+
+.login-input-email{
+    display: flex;
+    align-items: center;
+    /* color: gray; */
+    background-color: #1a1a1d;
+    border-radius: 3px;
+    width: 98%;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    /* margin-top: 15px; */
+}
+
+.login-input-email svg{
+    margin-left: 10px;
+    font-size: 25px;
+    color: #A1D2FF;
+}
+
+.login-input-email input{
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    /* color: #e1e1e6; */
+    color: #A1D2FF;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login-input-password{
+    display: flex;
+    align-items: center;
+    /* color: gray; */
+    background-color: #1a1a1d;
+    border-radius: 3px;
+    width: 98%;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.login-input-password svg{
+    margin-left: 10px;
+    font-size: 25px;
+    color: #A1D2FF;
+}
+
+.login-eye svg{
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #A1D2FF;
+
+}
+
+
+
+.login-input-password input{
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    /* color: #e1e1e6; */
+    color: #A1D2FF;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login-right button{
+    
+    background-color: #A1D2FF;
+    color: black;
+    /* color: #A1D2FF; */
+    font-weight: 800;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 50%;
+    border: none;
+
+    outline-width: 0;
+}
+
+.login-right button:hover{
+    background-color: #171719;
+    color: #A1D2FF;
+    cursor: pointer;
+}

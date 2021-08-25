@@ -33,7 +33,7 @@ $ npm install ou yarn install
 # Crie um arquivo .env e copie o formato do arquivo .env.example
 
 # Execute a aplicação
-$ npm dev ou yarn dev
+$ npm run dev ou yarn dev
 
 # O servidor inciará na porta:8080
 
